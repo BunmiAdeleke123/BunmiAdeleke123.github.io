@@ -1,0 +1,38 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: url(nature.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.linkChild{
+    height: inherit;
+    padding: 10px 10px;
+    color: #b0b1be;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linkChild:hover{
+    background-color: #b0b1be;
+    color: #404e68;
+    text-decoration: underline;
+}
+
+.list ol{
+    text-decoration: underline;
+    list-style-position: inside;
+    text-transform: uppercase;
+    list-style-type: decimal !important;
+    cursor: pointer;
+}
+
+.slick-dots .slick-active button:before{
+    color: white !important;
+    cursor: pointer;
+  }
